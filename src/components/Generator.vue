@@ -4,10 +4,14 @@
     <h2>{{ verb }}</h2>
     <h1>{{ name }}</h1>
     <button @click="generate">
-      <sweetalert-icon icon="error" />
+      <ClientOnly>
+        <sweetalert-icon icon="error" />
+      </ClientOnly>
     </button>
     <button @click="accept">
-      <sweetalert-icon icon="success" />
+      <ClientOnly>
+        <sweetalert-icon icon="success" />
+      </ClientOnly>
     </button>
   </section>
 </template>
