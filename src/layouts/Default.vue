@@ -25,6 +25,8 @@ body {
   margin:0;
   padding:0;
   line-height: 1.5;
+  background: #35495e;
+  color: #41b883;
 }
 
 .layout {
@@ -32,6 +34,7 @@ body {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
 }
 
 .header {
@@ -44,5 +47,9 @@ body {
 
 .nav__link {
   margin-left: 20px;
+}
+a {
+  color: white;
+  font-weight: normal;
 }
 </style>
